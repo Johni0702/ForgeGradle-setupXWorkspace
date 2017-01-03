@@ -2,5 +2,5 @@ pipeline:
   build:
     image: openjdk:8
     commands:
-      - ./gradlew setupCIWorkspace
+      - ./gradlew setupDevWorkspace
       - ./gradlew build
